@@ -54,11 +54,21 @@
 
   .logo{
 
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: var(--text-color);
     font-weight: 600;
     cursor: default;
+   top: 5rem;
 
+    color: var(--text-color);
+    margin-left: 4rem;
+    transition: .3s;
+
+  }
+
+  .navbar{
+    position: absolute;
+    left: 60%;
   }
 
   .navbar a{
@@ -83,6 +93,83 @@
 
 .home{
   display: flex;
+  justify-content: 0;
+  align-items: 0;
+
+  
+}
+
+.home img{
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  position:absolute;
+  top: 8rem;
+  right: 8rem;
+  zoom: 135%;
+}
+
+.home img img{
+  width: 35vw;
+}
+
+.home-contant h3{
+  font-size: 3.2rem;
+  font-weight: 700;
+
+}
+
+.home-contant h1{
+  font-size: 5.6rem;
+  font-weight: 800;
+}
+
+.home-contant h3:nth-of-type(2){
+  margin-bottom: 2rem;
+}
+
+span{
+  color: var(--main-color);
+}
+
+.home-contant p{
+  font-size: 1.6rem;
+}
+
+.social-media a{
+  display: inline-flex;
   justify-content: center;
   align-items: center;
+  width: 4rem;
+  height: 4rem;
+  background: transparent;
+  border: 3rem solid var(--main-color);
+  border-radius: 50%;
+  font-size: 2rem;
+  margin: 3rem 1.5rem 3rem 0;
+
+}
+
+.social-media a:hover{
+  background: var(--text-color);
+  color: var(--bg-color);
+  box-shadow: 0 0 1rem var(--text-color);
+}
+
+.btn{
+  display: inline-block;
+  padding: 1rem 2.8rem;
+  background:var(--main-color);
+  border-radius: 4rem;
+  box-shadow: 0 0 1rem var(--main-color);
+  font-size: 1.6rem;
+  color: var(--second-bg-color);
+  letter-spacing: 0.5rem;
+  font-weight: 600;
+  transition: .5s ease;
+
+}
+
+.btn:hover{
+  box-shadow: none;
 }
