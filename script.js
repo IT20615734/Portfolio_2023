@@ -35,4 +35,12 @@ window,onscroll=() => {
     let header=document.querySelector('header');
 
     header.classList.toggle('sticky',window.scrollY>100);
+
+
+    // remove toggle bar nad remobe navbar after scrolling
+
+    menuIcon.classList.remove('bx-x');
+    navbar.classList.remove('active');
+
+    
 }
