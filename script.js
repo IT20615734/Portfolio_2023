@@ -54,10 +54,10 @@ ScrollReveal({
     delay : 200
 });
 
-ScrollReveal().reveal('.home-contant, .heading ', { origin:'top' });
+ScrollReveal().reveal('.home-content, .heading ', { origin:'top' });
 ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form ', { origin:'top' });
 
-ScrollReveal().reveal('.home-contant h1, .about-img ', { origin:'left' });
-ScrollReveal().reveal('.home-contant p, .about-contant ', { origin:'right' });
+ScrollReveal().reveal('.home-content h1, .about-img ', { origin:'left' });
+ScrollReveal().reveal('.home-content p, .about-contant ', { origin:'right' });
 
 // Scroll reveal
