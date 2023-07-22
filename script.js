@@ -6,7 +6,7 @@ menuIcon.onclick=()=>{
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 
-}
+};
 // toggle action nav bar
 
 let sections = document.querySelectorAll('section');
@@ -43,7 +43,7 @@ window,onscroll=() => {
     navbar.classList.remove('active');
 
     
-}
+};
 
 
 // Scroll reveal
