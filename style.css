@@ -33,7 +33,7 @@
   }
 
   section{
-    min-height: 100;
+    min-height: 100vh;
     padding: 10rem 9% 2rem;
   }
 
@@ -97,20 +97,21 @@
 
 .home{
   display: flex;
-  justify-content: 0;
-  align-items: 0;
+  justify-content: center;
+  align-items: center;
 
   
 }
 
-.home img{
-  display: flex;
+.home-img img{
+  width: 35vw;
+  /* display: flex;
   justify-content: right;
   align-items: right;
   position:absolute;
   top: 7rem;
   right: 4rem;
-  zoom: 100%;
+  zoom: 100%; */
   
 }
 
@@ -144,6 +145,7 @@
 .home-contant h1{
   font-size: 5.6rem;
   font-weight: 800;
+  line-height: 1.3;
 }
 
 .home-contant h3:nth-of-type(2){
