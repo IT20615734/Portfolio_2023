@@ -345,8 +345,12 @@ span{
 
 }
 
+.portfolio-box:hover .portfolio-layer{
+  transform: translateY(0);
+}
+
 .portfolio-layer .h4{
-  font-size: large 3rem;
+  font-size: large 5rem;
 }
 
 .portfolio-layer p{
