@@ -61,3 +61,14 @@ ScrollReveal().reveal('.home-content h1, .about-img ', { origin:'left' });
 ScrollReveal().reveal('.home-content p, .about-contant ', { origin:'right' });
 
 // Scroll reveal
+
+// typed js
+const typed = new Typed('.multiple-text', {
+    strings:['Frontend Developer','Backend Developer'],
+    typeSpeed:100,
+    backSpeed:100,
+    backDelay:1000,
+    loop:true
+});
+// typed js
+
